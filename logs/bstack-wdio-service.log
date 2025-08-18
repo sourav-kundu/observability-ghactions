@@ -1,0 +1,284 @@
+2025-08-18T14:36:19.629Z INFO @wdio/browserstack-service BrowserStack service started with id: 5227be22-dd27-46cb-9e9a-836bd75c704e
+2025-08-18T14:36:19.631Z DEBUG @wdio/browserstack-service Sending SDK event with data {
+  userName: '[REDACTED]',
+  accessKey: '[REDACTED]',
+  event_type: 'SDKTestAttempted',
+  detectedFramework: 'WebdriverIO-cucumber',
+  event_properties: {
+    language_framework: 'WebdriverIO_cucumber',
+    referrer: 'WebdriverIO-cucumber/8.45.0',
+    language: 'WebdriverIO',
+    languageVersion: 'v20.18.1',
+    buildName: 'undefined',
+    buildIdentifier: 'undefined',
+    sdkRunId: '5227be22-dd27-46cb-9e9a-836bd75c704e',
+    os: 'Darwin',
+    hostname: 'SouravKundu-WQWR9RNPJ6',
+    productMap: {
+      observability: true,
+      accessibility: null,
+      percy: false,
+      automate: true,
+      app_automate: false
+    },
+    product: [ 'observability', 'automate' ],
+    framework: 'cucumber'
+  }
+}
+2025-08-18T14:36:20.029Z DEBUG @wdio/browserstack-service Funnel event success
+2025-08-18T14:36:20.030Z DEBUG @wdio/browserstack-service app is not defined in browserstack-service config, skipping ...
+2025-08-18T14:36:20.031Z DEBUG @wdio/browserstack-service Sending launch start event
+2025-08-18T14:36:23.684Z DEBUG @wdio/browserstack-service [Start_Build] Success response: {"observability":{"success":true,"options":{"allow_screenshots":true},"code":null,"errors":null,"error_trace_id":null},"accessibility":null,"automate":{"success":true,"options":{"allow_screenshots":true},"code":null,"errors":null,"error_trace_id":null},"turboscale":null,"build_hashed_id":"a59z6vbtgl3nlzzmj5iz6zesllbymctdgtqalhr2","jwt":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiI0OTE3OTIzIiwiZ3JvdXBfaWQiOjQ4NTg3NjksInVzZXJfaWQiOjQ5MTc5MjMsImJ1aWxkX2hhc2hlZF9pZCI6ImE1OXo2dmJ0Z2wzbmx6em1qNWl6Nnplc2xsYnltY3RkZ3RxYWxocjIiLCJwcm9qZWN0X25hbWUiOiJXRElPIEV4YW1wbGUiLCJob29rX2FzX3Rlc3QiOiIxIiwiYnVpbGRfbmFtZSI6IlNtb2tlIFN1aXRlIiwicHJvZHVjdF9tYXAiOiJ7XCJvYnNlcnZhYmlsaXR5XCI6dHJ1ZSxcImF1dG9tYXRlXCI6dHJ1ZSxcImFjY2Vzc2liaWxpdHlBdXRvRW5hYmxlZFwiOnRydWUsXCJub25TREtcIjpmYWxzZSxcIm9yaWdpbkZyb21Qcm9kdWN0TWFwXCI6XCJBdXRvbWF0ZVwiLFwiYnN0YWNrQXV0b21hdGlvblwiOnRydWUsXCJjYWRcIjp0cnVlfSIsImdycl9yZWdpb24iOiIiLCJpc19sb3dfdm9sdW1lIjpmYWxzZSwic2lnbmluZ19rZXlfaGFzaCI6IjM3YzExMzFlNGIyZTc0M2M3NjZlMWQ3MGJmNWYyYjU3ZGM2OWIxOTVkMzAwZTMyYWU4ZDAyMzEyMGE0YTZkOTciLCJpYXQiOjE3NTU1Mjc3ODEsImV4cCI6MTc1NTg3MzM4MX0.gA_VQRvCjoHxKv4q3xUVhRyX08Di7l2YSiizMZ5mXAs","discard_build":null,"app_automate":null}
+2025-08-18T14:36:23.685Z INFO @wdio/browserstack-service Testhub started with id: a59z6vbtgl3nlzzmj5iz6zesllbymctdgtqalhr2
+2025-08-18T14:36:23.686Z INFO @wdio/browserstack-service browserstackLocal is not enabled - skipping...
+2025-08-18T14:36:31.668Z DEBUG @wdio/browserstack-service Requesting Browserstack session URL at https://api.browserstack.com/automate/sessions/f950c8fb11805608721440d16c53bbede6ab6469.json
+2025-08-18T14:36:32.017Z INFO @wdio/browserstack-service Windows 10 Chrome latest session: https://automate.browserstack.com/builds/6f6baf6e54d6497015cf67e2f5a94a672a011cb2/sessions/f950c8fb11805608721440d16c53bbede6ab6469
+2025-08-18T14:36:32.171Z INFO @wdio/browserstack-service Update job with sessionId f950c8fb11805608721440d16c53bbede6ab6469
+2025-08-18T14:36:32.171Z DEBUG @wdio/browserstack-service Updating Browserstack session at https://api.browserstack.com/automate/sessions/f950c8fb11805608721440d16c53bbede6ab6469.json with request body: 
+2025-08-18T14:36:32.581Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-18T14:36:32.581Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-18T14:36:32.614Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-18T14:36:32.651Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 3
+2025-08-18T14:36:32.653Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 4
+2025-08-18T14:36:32.691Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 5
+2025-08-18T14:36:32.693Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 6
+2025-08-18T14:36:32.734Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 7
+2025-08-18T14:36:32.735Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 8
+2025-08-18T14:36:32.738Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-18T14:36:32.739Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 9
+2025-08-18T14:36:32.742Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-18T14:36:32.742Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 10
+2025-08-18T14:36:32.781Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 11
+2025-08-18T14:36:32.821Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 12
+2025-08-18T14:36:32.823Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 13
+2025-08-18T14:36:32.862Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 14
+2025-08-18T14:36:32.863Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 15
+2025-08-18T14:36:32.903Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 16
+2025-08-18T14:36:32.904Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 17
+2025-08-18T14:36:32.906Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-18T14:36:32.907Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 18
+2025-08-18T14:36:32.909Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-18T14:36:32.909Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 19
+2025-08-18T14:36:32.952Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 20
+2025-08-18T14:36:33.005Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 21
+2025-08-18T14:36:33.006Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 22
+2025-08-18T14:36:33.044Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 23
+2025-08-18T14:36:33.045Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 24
+2025-08-18T14:36:33.078Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 25
+2025-08-18T14:36:33.078Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 26
+2025-08-18T14:36:33.113Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 27
+2025-08-18T14:36:33.113Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 28
+2025-08-18T14:36:33.114Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-18T14:36:33.115Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 29
+2025-08-18T14:36:33.115Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-18T14:36:33.116Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 30
+2025-08-18T14:36:33.149Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 31
+2025-08-18T14:36:33.182Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 32
+2025-08-18T14:36:33.183Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 33
+2025-08-18T14:36:33.217Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 34
+2025-08-18T14:36:33.218Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 35
+2025-08-18T14:36:33.262Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 36
+2025-08-18T14:36:33.263Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 37
+2025-08-18T14:36:33.298Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 38
+2025-08-18T14:36:33.299Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 39
+2025-08-18T14:36:33.524Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-18T14:36:33.525Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 40
+2025-08-18T14:36:33.537Z INFO @wdio/browserstack-service Update job with sessionId f950c8fb11805608721440d16c53bbede6ab6469
+2025-08-18T14:36:33.537Z DEBUG @wdio/browserstack-service Updating Browserstack session at https://api.browserstack.com/automate/sessions/f950c8fb11805608721440d16c53bbede6ab6469.json with request body: 
+2025-08-18T14:36:34.583Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 40, Queue length after removal = 0
+2025-08-18T14:36:34.583Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-18T14:36:34.584Z DEBUG @wdio/browserstack-service callback: called with events 40
+2025-08-18T14:36:35.069Z DEBUG @wdio/browserstack-service [screenshot_upload] Success response: {"success":true}
+2025-08-18T14:36:35.069Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-18T14:36:36.391Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-18T14:36:36.391Z DEBUG @wdio/browserstack-service callback: marking events success 40
+2025-08-18T14:36:36.474Z DEBUG @wdio/browserstack-service teardown started
+2025-08-18T14:36:36.474Z DEBUG @wdio/browserstack-service shutdown started
+2025-08-18T14:36:36.474Z DEBUG @wdio/browserstack-service Shutting down request queue
+2025-08-18T14:36:36.475Z DEBUG @wdio/browserstack-service calling callback with kind SHUTDOWN_QUEUE
+2025-08-18T14:36:36.475Z DEBUG @wdio/browserstack-service callback: called with events 1
+2025-08-18T14:36:36.740Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-18T14:36:36.741Z DEBUG @wdio/browserstack-service callback: marking events success 1
+2025-08-18T14:36:36.741Z DEBUG @wdio/browserstack-service shutdown ended
+2025-08-18T14:36:36.741Z DEBUG @wdio/browserstack-service teardown ended
+2025-08-18T14:36:38.000Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-18T14:36:38.001Z DEBUG @wdio/browserstack-service Force request-queue shutdown, as test run event is received after teardown
+2025-08-18T14:36:38.002Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 1, Queue length after removal = 0
+2025-08-18T14:36:38.002Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-18T14:36:38.002Z DEBUG @wdio/browserstack-service callback: called with events 1
+2025-08-18T14:36:51.684Z DEBUG @wdio/browserstack-service Requesting Browserstack session URL at https://api.browserstack.com/automate/sessions/3ef0ca38d4fa2da41fe89a8c8de8d59715545ce2.json
+2025-08-18T14:36:52.054Z INFO @wdio/browserstack-service Windows 10 Chrome latest session: https://automate.browserstack.com/builds/6f6baf6e54d6497015cf67e2f5a94a672a011cb2/sessions/3ef0ca38d4fa2da41fe89a8c8de8d59715545ce2
+2025-08-18T14:36:52.212Z INFO @wdio/browserstack-service Update job with sessionId 3ef0ca38d4fa2da41fe89a8c8de8d59715545ce2
+2025-08-18T14:36:52.212Z DEBUG @wdio/browserstack-service Updating Browserstack session at https://api.browserstack.com/automate/sessions/3ef0ca38d4fa2da41fe89a8c8de8d59715545ce2.json with request body: 
+2025-08-18T14:36:53.471Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-18T14:36:53.472Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-18T14:36:53.502Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-18T14:36:53.544Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 3
+2025-08-18T14:36:53.547Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 4
+2025-08-18T14:36:53.587Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 5
+2025-08-18T14:36:53.589Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 6
+2025-08-18T14:36:53.632Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 7
+2025-08-18T14:36:53.633Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 8
+2025-08-18T14:36:53.635Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-18T14:36:53.637Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 9
+2025-08-18T14:36:53.639Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-18T14:36:53.640Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 10
+2025-08-18T14:36:53.682Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 11
+2025-08-18T14:36:53.722Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 12
+2025-08-18T14:36:53.724Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 13
+2025-08-18T14:36:53.765Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 14
+2025-08-18T14:36:53.766Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 15
+2025-08-18T14:36:53.813Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 16
+2025-08-18T14:36:53.814Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 17
+2025-08-18T14:36:53.853Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 18
+2025-08-18T14:36:53.855Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 19
+2025-08-18T14:36:54.038Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-18T14:36:54.039Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 20
+2025-08-18T14:36:54.040Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-18T14:36:54.040Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 21
+2025-08-18T14:36:54.075Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 22
+2025-08-18T14:36:54.113Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 23
+2025-08-18T14:36:54.114Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 24
+2025-08-18T14:36:54.150Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 25
+2025-08-18T14:36:54.152Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 26
+2025-08-18T14:36:54.187Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 27
+2025-08-18T14:36:54.189Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 28
+2025-08-18T14:36:54.192Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-18T14:36:54.192Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 29
+2025-08-18T14:36:54.194Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-18T14:36:54.194Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 30
+2025-08-18T14:36:54.231Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 31
+2025-08-18T14:36:54.269Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 32
+2025-08-18T14:36:54.270Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 33
+2025-08-18T14:36:54.305Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 34
+2025-08-18T14:36:54.306Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 35
+2025-08-18T14:36:54.341Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 36
+2025-08-18T14:36:54.342Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 37
+2025-08-18T14:36:54.394Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 38
+2025-08-18T14:36:54.395Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 39
+2025-08-18T14:36:54.511Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-18T14:36:54.511Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 40
+2025-08-18T14:36:54.513Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-18T14:36:54.513Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 41
+2025-08-18T14:36:54.555Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 42
+2025-08-18T14:36:54.592Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 43
+2025-08-18T14:36:54.593Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 44
+2025-08-18T14:36:54.628Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 45
+2025-08-18T14:36:54.630Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 46
+2025-08-18T14:36:54.669Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 47
+2025-08-18T14:36:54.670Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 48
+2025-08-18T14:36:54.680Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-18T14:36:54.680Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 49
+2025-08-18T14:36:54.681Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-18T14:36:54.681Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 50
+2025-08-18T14:36:54.714Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 51
+2025-08-18T14:36:54.748Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 52
+2025-08-18T14:36:54.750Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 53
+2025-08-18T14:36:54.783Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 54
+2025-08-18T14:36:54.784Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 55
+2025-08-18T14:36:54.818Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 56
+2025-08-18T14:36:54.819Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 57
+2025-08-18T14:36:54.853Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 58
+2025-08-18T14:36:54.855Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 59
+2025-08-18T14:36:54.856Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-18T14:36:54.857Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 60
+2025-08-18T14:36:54.873Z INFO @wdio/browserstack-service Update job with sessionId 3ef0ca38d4fa2da41fe89a8c8de8d59715545ce2
+2025-08-18T14:36:54.873Z DEBUG @wdio/browserstack-service Updating Browserstack session at https://api.browserstack.com/automate/sessions/3ef0ca38d4fa2da41fe89a8c8de8d59715545ce2.json with request body: 
+2025-08-18T14:36:55.474Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 60, Queue length after removal = 0
+2025-08-18T14:36:55.474Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-18T14:36:55.474Z DEBUG @wdio/browserstack-service callback: called with events 60
+2025-08-18T14:36:55.592Z DEBUG @wdio/browserstack-service [screenshot_upload] Success response: {"success":true}
+2025-08-18T14:36:55.593Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-18T14:36:56.077Z DEBUG @wdio/browserstack-service [screenshot_upload] Success response: {"success":true}
+2025-08-18T14:36:56.077Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-18T14:36:57.475Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 2, Queue length after removal = 0
+2025-08-18T14:36:57.476Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-18T14:36:57.476Z DEBUG @wdio/browserstack-service callback: called with events 2
+2025-08-18T14:36:57.487Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-18T14:36:57.488Z DEBUG @wdio/browserstack-service callback: marking events success 60
+2025-08-18T14:36:57.783Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-18T14:36:57.783Z DEBUG @wdio/browserstack-service callback: marking events success 2
+2025-08-18T14:36:57.804Z DEBUG @wdio/browserstack-service teardown started
+2025-08-18T14:36:57.805Z DEBUG @wdio/browserstack-service shutdown started
+2025-08-18T14:36:57.805Z DEBUG @wdio/browserstack-service Shutting down request queue
+2025-08-18T14:36:57.805Z DEBUG @wdio/browserstack-service shutdown ended
+2025-08-18T14:36:57.806Z DEBUG @wdio/browserstack-service teardown ended
+2025-08-18T14:36:59.015Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-18T14:36:59.015Z DEBUG @wdio/browserstack-service Force request-queue shutdown, as test run event is received after teardown
+2025-08-18T14:36:59.015Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 1, Queue length after removal = 0
+2025-08-18T14:36:59.015Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-18T14:36:59.015Z DEBUG @wdio/browserstack-service callback: called with events 1
+2025-08-18T14:36:59.139Z DEBUG @wdio/browserstack-service Inside OnComplete hook..
+2025-08-18T14:36:59.140Z DEBUG @wdio/browserstack-service Sending stop launch event
+2025-08-18T14:36:59.424Z DEBUG @wdio/browserstack-service [STOP_BUILD] Success response: ""
+2025-08-18T14:36:59.429Z INFO @wdio/browserstack-service BrowserStack service run ended for id: 5227be22-dd27-46cb-9e9a-836bd75c704e testhub id: a59z6vbtgl3nlzzmj5iz6zesllbymctdgtqalhr2
+2025-08-18T14:36:59.430Z DEBUG @wdio/browserstack-service Reading worker file worker-data-90505.json
+2025-08-18T14:36:59.431Z DEBUG @wdio/browserstack-service Reading worker file worker-data-90506.json
+2025-08-18T14:36:59.437Z DEBUG @wdio/browserstack-service Sending SDK event with data {
+  userName: '[REDACTED]',
+  accessKey: '[REDACTED]',
+  event_type: 'SDKTestSuccessful',
+  detectedFramework: 'WebdriverIO-cucumber',
+  event_properties: {
+    language_framework: 'WebdriverIO_cucumber',
+    referrer: 'WebdriverIO-cucumber/8.45.0',
+    language: 'WebdriverIO',
+    languageVersion: 'v20.18.1',
+    buildName: 'undefined',
+    buildIdentifier: 'undefined',
+    sdkRunId: '5227be22-dd27-46cb-9e9a-836bd75c704e',
+    os: 'Darwin',
+    hostname: 'SouravKundu-WQWR9RNPJ6',
+    productMap: {
+      observability: true,
+      accessibility: null,
+      percy: false,
+      automate: true,
+      app_automate: false
+    },
+    product: [ 'observability', 'automate' ],
+    framework: 'cucumber',
+    testhub_uuid: 'a59z6vbtgl3nlzzmj5iz6zesllbymctdgtqalhr2',
+    productUsage: {
+      testObservability: {
+        enabled: true,
+        manuallySet: true,
+        buildHashedId: 'a59z6vbtgl3nlzzmj5iz6zesllbymctdgtqalhr2',
+        events: {
+          buildEvents: {
+            started: { isTriggered: true, status: 'success', error: undefined },
+            finished: { isTriggered: true, status: 'success', error: undefined }
+          },
+          testEvents: {
+            started: { triggeredCount: 10, sentCount: 10, failedCount: 0 },
+            finished: { triggeredCount: 10, sentCount: 10, failedCount: 0 },
+            passed: { triggeredCount: 5, sentCount: 5, failedCount: 0 },
+            failed: { triggeredCount: 2, sentCount: 2, failedCount: 0 },
+            skipped: { triggeredCount: 3, sentCount: 3, failedCount: 0 }
+          },
+          hookEvents: {
+            started: { triggeredCount: 0, sentCount: 0, failedCount: 0 },
+            finished: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
+          },
+          logEvents: {
+            triggeredCount: 86,
+            sentCount: 86,
+            failedCount: 0,
+            http: { triggeredCount: 48, sentCount: 48, failedCount: 0 },
+            log: { triggeredCount: 35, sentCount: 35, failedCount: 0 },
+            screenshot: { triggeredCount: 3, sentCount: 3, failedCount: 0 }
+          },
+          cbtSessionEvents: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
+        }
+      }
+    },
+    isPercyAutoEnabled: false,
+    percyBuildId: undefined
+  }
+}
+2025-08-18T14:36:59.805Z DEBUG @wdio/browserstack-service Funnel event success
+2025-08-18T14:37:01.919Z DEBUG @wdio/browserstack-service Response - {
+  status: 'success',
+  message: 'Logs upload successful in file - logs.gz'
+}
+2025-08-18T14:37:04.610Z DEBUG @wdio/browserstack-service Successfully uploaded performance events Bravo
