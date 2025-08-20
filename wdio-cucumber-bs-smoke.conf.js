@@ -138,7 +138,10 @@ exports.config = {
                 projectName: "WDIO Example",
                 buildName: "Smoke Suite",
             },
-            browserstackLocal: false
+            browserstackLocal: false,
+            accessibility: true,
+            percy: 'true',
+            percyCaptureMode: 'auto'
         }]
     ],
     

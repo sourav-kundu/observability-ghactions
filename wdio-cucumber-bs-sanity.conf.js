@@ -138,7 +138,10 @@ exports.config = {
                 projectName: "WDIO Example",
                 buildName: "Sanity",
             },
-            browserstackLocal: false
+            browserstackLocal: false,
+            accessibility: true,
+            percy: 'true',
+            percyCaptureMode: 'auto'
         }]
     ],
     
