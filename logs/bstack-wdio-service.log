@@ -1,0 +1,872 @@
+2025-08-20T08:40:33.239Z INFO @wdio/browserstack-service BrowserStack service started with id: f405f253-ae83-4a03-8ec7-768074fd41ec
+2025-08-20T08:40:33.241Z DEBUG @wdio/browserstack-service Sending SDK event with data {
+  userName: '[REDACTED]',
+  accessKey: '[REDACTED]',
+  event_type: 'SDKTestAttempted',
+  detectedFramework: 'WebdriverIO-cucumber',
+  event_properties: {
+    language_framework: 'WebdriverIO_cucumber',
+    referrer: 'WebdriverIO-cucumber/8.46.0',
+    language: 'WebdriverIO',
+    languageVersion: 'v20.18.1',
+    buildName: 'undefined',
+    buildIdentifier: 'undefined',
+    sdkRunId: 'f405f253-ae83-4a03-8ec7-768074fd41ec',
+    os: 'Darwin',
+    hostname: 'SouravKundu-WQWR9RNPJ6',
+    productMap: {
+      observability: true,
+      accessibility: true,
+      percy: 'true',
+      automate: true,
+      app_automate: false
+    },
+    product: [ 'observability', 'accessibility', 'percy', 'automate' ],
+    framework: 'cucumber'
+  }
+}
+2025-08-20T08:40:33.410Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 1, Queue length after removal = 0
+2025-08-20T08:40:33.410Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:33.410Z DEBUG @wdio/browserstack-service callback: called with events 1
+2025-08-20T08:40:33.610Z DEBUG @wdio/browserstack-service Funnel event success
+2025-08-20T08:40:33.610Z DEBUG @wdio/browserstack-service app is not defined in browserstack-service config, skipping ...
+2025-08-20T08:40:33.611Z DEBUG @wdio/browserstack-service Sending launch start event
+2025-08-20T08:40:33.662Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:33.663Z DEBUG @wdio/browserstack-service callback: marking events success 1
+2025-08-20T08:40:33.796Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:33.829Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:40:33.830Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 3
+2025-08-20T08:40:33.983Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:33.984Z DEBUG @wdio/browserstack-service {
+  msg: 'Accessibility Automation Scanner completed the scan.',
+  success: true
+}
+2025-08-20T08:40:33.998Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:40:34.207Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 4
+2025-08-20T08:40:34.484Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 5
+2025-08-20T08:40:34.518Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 6
+2025-08-20T08:40:34.518Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 7
+2025-08-20T08:40:34.562Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 8
+2025-08-20T08:40:34.562Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 9
+2025-08-20T08:40:34.593Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 10
+2025-08-20T08:40:34.694Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 11
+2025-08-20T08:40:34.758Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 12
+2025-08-20T08:40:34.759Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-20T08:40:34.759Z INFO @wdio/browserstack-service Automate test case execution has ended. Processing for accessibility testing is underway. 
+2025-08-20T08:40:34.760Z DEBUG @wdio/browserstack-service Performing scan before saving results
+2025-08-20T08:40:35.175Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 2, Queue length after removal = 0
+2025-08-20T08:40:35.175Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:35.175Z DEBUG @wdio/browserstack-service callback: called with events 2
+2025-08-20T08:40:35.307Z DEBUG @wdio/browserstack-service [Start_Build] Success response: {"observability":{"success":true,"options":{"allow_screenshots":true},"code":null,"errors":null,"error_trace_id":null},"accessibility":{"success":true,"options":{"capabilities":[{"name":"accessibilityToken","value":"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0OTE3OTIzLCJ0ZXN0X3J1bl9pZCI6MTAxMTQ4MSwiYTExeV9jb3JlX2NvbmZpZyI6eyJkaXNhYmxlX2ExMXlfZW5naW5lX2NvbmZpZyI6ZmFsc2UsImRpc2FibGVfYTExeV9lbmdpbmVfZXhwZXJpbWVudGFsX3J1bGVzIjpmYWxzZSwiZG9tRm9yZ2UiOnRydWUsImV4Y2x1ZGVfcnVsZXMiOltdLCJhZHZhbmNlZCI6dHJ1ZSwiYWkiOnRydWUsImNvbG9yQ29udHJhc3RBSSI6dHJ1ZSwidXNlRXh0Q3R4IjpmYWxzZSwicnVuVHlwZUFPcHQiOmZhbHNlLCJhbGxvd0Nyb3NzT3JpZ2luSWZyYW1lIjpmYWxzZSwiZW5hYmxlQ3lwcmVzc1NQQSI6ZmFsc2V9LCJzY2FubmVyX3ZlcnNpb24iOiI0LjE0LjAuMCIsImFkdmFuY2VkX3NjYW5fdGltZW91dCI6MTUsInJjdCI6MjUsImdyb3VwX2lkIjo0ODU4NzY5LCJhdXRvbWF0aW9uIjp0cnVlLCJydW5uZXIiOiJBVVQiLCJvcHRpbWl6YXRpb24iOnRydWUsInNjb3JlIjp0cnVlLCJxdWVyeV9wYXJhbXMiOmZhbHNlLCJzY29wZV9rZXkiOjEwMTE0ODEsInByaW9yaXRpemVkIjpmYWxzZSwiZ3JyX3pvbmUiOiIiLCJ3aW4xMzdmaXgiOnRydWUsInVybF9jb3VudCI6MCwiZXhwIjoxNzU1ODUyMDM0fQ.0e2tCpMqRegOJqRSUM9O5KS-nyRElYKIVKHK4LKmCqo"},{"name":"scannerVersion","value":"https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.14.0.0.zip?Expires=1755852034&Signature=SQCvDNperBiGhzLApdUK-vqh0hlZ2Azf7WlQlJb-yCglC05XOcdSEy249y9k0MrfPPGGLduSt7JO9jXB-wckNFdyacZRrSXo7qAcvJF62bmUMPseQe9ERURAGFJzYSVVgOxB3SjcsjCtzdT8yxu6E5Hd4dytZUiuoJpRZi9gW~2YXReaS0Ys2SoXSpplWS-Udprewd4gIVyOTkY-5PUX99DE4yxmkmpkT8PGM2igcmDHIJq3V6DJ1BGyTHkzyYpfd4YZC-cpRI4vkuF5DdFfr21fNgzUkPJ8xxPMJKqPNt5CvRLZAAjYU-SW2EKHw~GC6R4HATMiKmvXyNlEatnEPw__&Key-Pair-Id=KF2675ZED12I3"},{"name":"test_run_id","value":1011481},{"name":"testhub_build_uuid","value":"jcedqmyuorltg5eqbvpdyeiccunbciph62gvru3c"}],"scripts":[{"name":"scan","command":"/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\nconst payloadToSend = arguments[0];\nconst middlewareStartTime = performance.now();\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error('Accessibility Automation Scanner is not ready on the page.'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: 'success' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction scanForAccessibility() {\n  const scanStartTime = performance.now();\n  const requestEvent = new CustomEvent('A11Y_SCAN', {\n    detail: {\n      ...payloadToSend,\n      middlewareStartTime,\n      scanStartTime,\n      readinessCheckTime: scanStartTime - middlewareStartTime\n    }\n  });\n  const responseEvent = 'A11Y_SCAN_FINISHED';\n\n  const responseEventListener = () => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner completed the scan.\");\n    callback({ success: true, msg: \"Accessibility Automation Scanner completed the scan.\" });\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner to perform a scan.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector('#accessibility-automation-element');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  scanForAccessibility();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === 'success') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        scanForAccessibility();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to perform accessibility scan, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to perform accessibility scan, Invalid URL.\" });\n}\n"},{"name":"saveResults","command":"/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\nconst payloadToSend = arguments[0];\nconst middlewareStartTime = performance.now();\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error('Accessibility Automation Scanner is not ready on the page.'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: 'success' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction saveAccessibilityResults() {\n  const saveStartTime = performance.now();\n  const requestEvent = new CustomEvent('A11Y_SAVE_RESULTS', {\n    detail: {\n      ...payloadToSend,\n      middlewareStartTime,\n      saveStartTime,\n      readinessCheckTime: saveStartTime - middlewareStartTime\n    }\n  });\n  const responseEvent = 'A11Y_RESULTS_SAVED';\n\n  const responseEventListener = (response) => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner saved the test case results.\");\n    callback({ success: response?.detail?.success || false, msg: response?.detail?.msg || 'No response from Accessibility Automation Scanner' });\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner to save the test case results.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector('#accessibility-automation-element');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  saveAccessibilityResults();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === 'success') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        saveAccessibilityResults();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to save accessibility results, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to save accessibility results, Invalid URL.\" });\n}\n"},{"name":"getResults","command":"/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error('Accessibility Automation Scanner is not ready on the page.'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: 'success' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction getAccessibilityResults() {\n  const requestEvent = new CustomEvent('A11Y_GET_RESULTS');\n  const responseEvent = 'A11Y_RESULTS_RESPONSE';\n\n  const responseEventListener = () => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner provided the results.\");\n    callback(event.detail);\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner for the results.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector('#accessibility-automation-element');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  getAccessibilityResults();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === 'success') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        getAccessibilityResults();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to fetch accessibility results, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to fetch accessibility results, Invalid URL.\" });\n}\n"},{"name":"getResultsSummary","command":"/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error('Accessibility Automation Scanner is not ready on the page.'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: 'success' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction getAccessibilityResultsSummary() {\n  const requestEvent = new CustomEvent('A11Y_GET_RESULTS_SUMMARY');\n  const responseEvent = 'A11Y_RESULTS_SUMMARY';\n\n  const responseEventListener = () => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner provided the summary of the results.\");\n    callback(event.detail);\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner for the summary of results.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector('#accessibility-automation-element');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  getAccessibilityResultsSummary();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === 'success') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        getAccessibilityResultsSummary();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to fetch accessibility results summary, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to fetch accessibility results summary, Invalid URL.\" });\n}\n"}],"commandsToWrap":{"scriptsToRun":["scan","saveResults","getResults","getResultsSummary"],"commands":[{"library":"webdriverio","method":"url","module":"webdriverio","name":"url","class":"Browser"},{"library":"webdriverio","method":"action","module":"webdriverio","name":"action","class":"Browser"},{"library":"webdriverio","method":"actions","module":"webdriverio","name":"actions","class":"Browser"},{"library":"webdriverio","method":"keys","module":"webdriverio","name":"keys","class":"Browser"},{"library":"webdriverio","method":"scroll","module":"webdriverio","name":"scroll","class":"Browser"},{"library":"webdriverio","method":"setWindowSize","module":"webdriverio","name":"setWindowSize","class":"Browser"},{"library":"webdriverio","method":"touchAction","module":"webdriverio","name":"touchAction","class":"Browser"},{"library":"webdriverio","method":"touchAction","module":"webdriverio","name":"touchAction","class":"Element"},{"library":"webdriverio","method":"addValue","module":"webdriverio","name":"addValue","class":"Element"},{"library":"webdriverio","method":"clearValue","module":"webdriverio","name":"clearValue","class":"Element"},{"library":"webdriverio","method":"click","module":"webdriverio","name":"click","class":"Element"},{"library":"webdriverio","method":"doubleClick","module":"webdriverio","name":"doubleClick","class":"Element"},{"library":"webdriverio","method":"dragAndDrop","module":"webdriverio","name":"dragAndDrop","class":"Element"},{"library":"webdriverio","method":"moveTo","module":"webdriverio","name":"moveTo","class":"Element"},{"library":"webdriverio","method":"scrollIntoView","module":"webdriverio","name":"scrollIntoView","class":"Element"},{"library":"webdriverio","method":"selectByAttribute","module":"webdriverio","name":"selectByAttribute","class":"Element"},{"library":"webdriverio","method":"selectByVisibleText","module":"webdriverio","name":"selectByVisibleText","class":"Element"},{"library":"webdriverio","method":"setValue","module":"webdriverio","name":"setValue","class":"Element"},{"library":"webdriverio","method":"call","module":"webdriverio","name":"call","class":"Browser"},{"library":"webdriverio","method":"execute","module":"webdriverio","name":"execute","class":"Browser"},{"library":"webdriverio","method":"executeAsync","module":"webdriverio","name":"executeAsync","class":"Browser"},{"library":"webdriverio","method":"addCommand","module":"webdriverio","name":"addCommand","class":"Browser"}]}},"code":null,"errors":null,"error_trace_id":null},"automate":{"success":true,"options":{"allow_screenshots":true},"code":null,"errors":null,"error_trace_id":null},"turboscale":null,"build_hashed_id":"jcedqmyuorltg5eqbvpdyeiccunbciph62gvru3c","jwt":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiI0OTE3OTIzIiwiZ3JvdXBfaWQiOjQ4NTg3NjksInVzZXJfaWQiOjQ5MTc5MjMsImJ1aWxkX2hhc2hlZF9pZCI6ImpjZWRxbXl1b3JsdGc1ZXFidnBkeWVpY2N1bmJjaXBoNjJndnJ1M2MiLCJwcm9qZWN0X25hbWUiOiJXRElPIEV4YW1wbGUiLCJob29rX2FzX3Rlc3QiOiIxIiwiYnVpbGRfbmFtZSI6IlNtb2tlIFN1aXRlIiwicHJvZHVjdF9tYXAiOiJ7XCJvYnNlcnZhYmlsaXR5XCI6dHJ1ZSxcImFjY2Vzc2liaWxpdHlcIjp0cnVlLFwiYXV0b21hdGVcIjp0cnVlLFwibm9uU0RLXCI6ZmFsc2UsXCJhY2Nlc3NpYmlsaXR5QXV0b0VuYWJsZWRcIjpmYWxzZSxcImNhZFwiOnRydWUsXCJvcmlnaW5Gcm9tUHJvZHVjdE1hcFwiOlwiQXV0b21hdGVcIixcImJzdGFja0F1dG9tYXRpb25cIjp0cnVlfSIsImdycl9yZWdpb24iOiIiLCJpc19sb3dfdm9sdW1lIjpmYWxzZSwic2lnbmluZ19rZXlfaGFzaCI6IjM3YzExMzFlNGIyZTc0M2M3NjZlMWQ3MGJmNWYyYjU3ZGM2OWIxOTVkMzAwZTMyYWU4ZDAyMzEyMGE0YTZkOTciLCJpYXQiOjE3NTU2NzkyMzQsImV4cCI6MTc1NjAyNDgzNH0.0S1p5eFj-EP3ChbFlJZ-yIsSowzr7lrBS-b9t7wUk_w","discard_build":null,"app_automate":null}
+2025-08-20T08:40:35.308Z INFO @wdio/browserstack-service Testhub started with id: jcedqmyuorltg5eqbvpdyeiccunbciph62gvru3c
+2025-08-20T08:40:35.310Z DEBUG @wdio/browserstack-service Accessibility scannerVersion https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.14.0.0.zip?Expires=1755852034&Signature=SQCvDNperBiGhzLApdUK-vqh0hlZ2Azf7WlQlJb-yCglC05XOcdSEy249y9k0MrfPPGGLduSt7JO9jXB-wckNFdyacZRrSXo7qAcvJF62bmUMPseQe9ERURAGFJzYSVVgOxB3SjcsjCtzdT8yxu6E5Hd4dytZUiuoJpRZi9gW~2YXReaS0Ys2SoXSpplWS-Udprewd4gIVyOTkY-5PUX99DE4yxmkmpkT8PGM2igcmDHIJq3V6DJ1BGyTHkzyYpfd4YZC-cpRI4vkuF5DdFfr21fNgzUkPJ8xxPMJKqPNt5CvRLZAAjYU-SW2EKHw~GC6R4HATMiKmvXyNlEatnEPw__&Key-Pair-Id=KF2675ZED12I3
+2025-08-20T08:40:35.411Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 12, Queue length after removal = 0
+2025-08-20T08:40:35.412Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:35.412Z DEBUG @wdio/browserstack-service callback: called with events 12
+2025-08-20T08:40:35.420Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:35.420Z DEBUG @wdio/browserstack-service callback: marking events success 2
+2025-08-20T08:40:35.652Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:35.652Z DEBUG @wdio/browserstack-service {
+  msg: 'Accessibility Automation Scanner saved the test case results.',
+  success: true
+}
+2025-08-20T08:40:35.652Z INFO @wdio/browserstack-service Accessibility testing for this test case has ended.
+2025-08-20T08:40:35.652Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:40:35.654Z INFO @wdio/browserstack-service Automate test case execution has started.
+2025-08-20T08:40:35.654Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-20T08:40:35.655Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 3
+2025-08-20T08:40:35.660Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 4
+2025-08-20T08:40:35.662Z ERROR @wdio/browserstack-service Parameter name is required - HTTPError: Response code 400 (Bad Request)
+    at Request.<anonymous> (file:///Users/sourav/Desktop/observability-ghactions/node_modules/got/dist/source/as-promise/index.js:86:42)
+    at Object.onceWrapper (node:events:633:26)
+    at Request.emit (node:events:530:35)
+    at Request.emit (node:domain:489:12)
+    at Request._onResponseBase (file:///Users/sourav/Desktop/observability-ghactions/node_modules/got/dist/source/core/index.js:727:22)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Request._onResponse (file:///Users/sourav/Desktop/observability-ghactions/node_modules/got/dist/source/core/index.js:766:13)
+2025-08-20T08:40:35.663Z INFO @wdio/browserstack-service browserstackLocal is not enabled - skipping...
+2025-08-20T08:40:35.686Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 5
+2025-08-20T08:40:35.716Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 6
+2025-08-20T08:40:35.718Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:35.718Z DEBUG @wdio/browserstack-service callback: marking events success 12
+2025-08-20T08:40:35.717Z DEBUG @wdio/browserstack-service Performing scan for Browser url
+2025-08-20T08:40:37.176Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 6, Queue length after removal = 0
+2025-08-20T08:40:37.176Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:37.177Z DEBUG @wdio/browserstack-service callback: called with events 6
+2025-08-20T08:40:37.423Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:37.424Z DEBUG @wdio/browserstack-service callback: marking events success 6
+2025-08-20T08:40:37.779Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:37.779Z DEBUG @wdio/browserstack-service {
+  msg: 'Accessibility Automation Scanner completed the scan.',
+  success: true
+}
+2025-08-20T08:40:37.869Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:37.869Z DEBUG @wdio/browserstack-service {
+  msg: 'Accessibility Automation Scanner completed the scan.',
+  success: true
+}
+2025-08-20T08:40:39.177Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 1, Queue length after removal = 0
+2025-08-20T08:40:39.178Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:39.178Z DEBUG @wdio/browserstack-service callback: called with events 1
+2025-08-20T08:40:39.299Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:40:39.299Z DEBUG @wdio/browserstack-service {
+  msg: 'Accessibility Automation Scanner saved the test case results.',
+  success: true
+}
+2025-08-20T08:40:39.299Z INFO @wdio/browserstack-service Accessibility testing for this test case has ended.
+2025-08-20T08:40:39.299Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 3
+2025-08-20T08:40:39.300Z INFO @wdio/browserstack-service Automate test case execution has started.
+2025-08-20T08:40:39.300Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-20T08:40:39.300Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 4
+2025-08-20T08:40:39.330Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 5
+2025-08-20T08:40:39.389Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 6
+2025-08-20T08:40:39.390Z DEBUG @wdio/browserstack-service Performing scan for Browser url
+2025-08-20T08:40:39.415Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 6, Queue length after removal = 0
+2025-08-20T08:40:39.415Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:39.415Z DEBUG @wdio/browserstack-service callback: called with events 6
+2025-08-20T08:40:39.437Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:39.438Z DEBUG @wdio/browserstack-service callback: marking events success 1
+2025-08-20T08:40:39.679Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:39.680Z DEBUG @wdio/browserstack-service callback: marking events success 6
+2025-08-20T08:40:39.779Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:39.818Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:40:39.897Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 3
+2025-08-20T08:40:40.011Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 4
+2025-08-20T08:40:40.047Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 5
+2025-08-20T08:40:40.050Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 6
+2025-08-20T08:40:40.658Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-20T08:40:40.658Z INFO @wdio/browserstack-service Automate test case execution has ended. Processing for accessibility testing is underway. 
+2025-08-20T08:40:40.658Z DEBUG @wdio/browserstack-service Performing scan before saving results
+2025-08-20T08:40:41.178Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 6, Queue length after removal = 0
+2025-08-20T08:40:41.178Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:41.178Z DEBUG @wdio/browserstack-service callback: called with events 6
+2025-08-20T08:40:41.183Z DEBUG @wdio/browserstack-service [screenshot_upload] Success response: {"success":true}
+2025-08-20T08:40:41.183Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:41.415Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:41.415Z DEBUG @wdio/browserstack-service callback: marking events success 6
+2025-08-20T08:40:41.668Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:41.668Z DEBUG @wdio/browserstack-service {
+  msg: 'Accessibility Automation Scanner completed the scan.',
+  success: true
+}
+2025-08-20T08:40:43.179Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 1, Queue length after removal = 0
+2025-08-20T08:40:43.179Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:43.180Z DEBUG @wdio/browserstack-service callback: called with events 1
+2025-08-20T08:40:43.258Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:43.259Z DEBUG @wdio/browserstack-service {
+  msg: 'Accessibility Automation Scanner completed the scan.',
+  success: true
+}
+2025-08-20T08:40:43.417Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 1, Queue length after removal = 0
+2025-08-20T08:40:43.417Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:43.417Z DEBUG @wdio/browserstack-service callback: called with events 1
+2025-08-20T08:40:43.521Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:43.521Z DEBUG @wdio/browserstack-service callback: marking events success 1
+2025-08-20T08:40:43.567Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:43.601Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:40:43.603Z DEBUG @wdio/browserstack-service Performing scan for Browser url
+2025-08-20T08:40:44.467Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:44.468Z DEBUG @wdio/browserstack-service callback: marking events success 1
+2025-08-20T08:40:44.648Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:40:44.648Z DEBUG @wdio/browserstack-service {
+  msg: 'Accessibility Automation Scanner saved the test case results.',
+  success: true
+}
+2025-08-20T08:40:44.649Z INFO @wdio/browserstack-service Accessibility testing for this test case has ended.
+2025-08-20T08:40:44.649Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 3
+2025-08-20T08:40:44.674Z INFO @wdio/browserstack-service Update job with sessionId 5fadc7bfe3d50cc1172eeb39dced59fa6ea9e36f
+2025-08-20T08:40:44.674Z DEBUG @wdio/browserstack-service Updating Browserstack session at https://api.browserstack.com/automate/sessions/5fadc7bfe3d50cc1172eeb39dced59fa6ea9e36f.json with request body: 
+2025-08-20T08:40:45.051Z DEBUG @wdio/browserstack-service Requesting Browserstack session URL at https://api.browserstack.com/automate/sessions/a25eb6705efbffb5b1fd7f28dcbaf4d7ae79d95e.json
+2025-08-20T08:40:45.180Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 3, Queue length after removal = 0
+2025-08-20T08:40:45.180Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:45.180Z DEBUG @wdio/browserstack-service callback: called with events 3
+2025-08-20T08:40:45.418Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 2, Queue length after removal = 0
+2025-08-20T08:40:45.418Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:45.418Z DEBUG @wdio/browserstack-service callback: called with events 2
+2025-08-20T08:40:45.426Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:45.427Z DEBUG @wdio/browserstack-service callback: marking events success 3
+2025-08-20T08:40:45.427Z DEBUG @wdio/browserstack-service teardown started
+2025-08-20T08:40:45.427Z DEBUG @wdio/browserstack-service shutdown started
+2025-08-20T08:40:45.427Z DEBUG @wdio/browserstack-service Shutting down request queue
+2025-08-20T08:40:45.427Z DEBUG @wdio/browserstack-service shutdown ended
+2025-08-20T08:40:45.427Z DEBUG @wdio/browserstack-service teardown ended
+2025-08-20T08:40:45.432Z INFO @wdio/browserstack-service Windows 10 Chrome latest session: https://automate.browserstack.com/builds/e97cd12d0422fc70b850f93cf0fffc4ea8b65244/sessions/a25eb6705efbffb5b1fd7f28dcbaf4d7ae79d95e
+2025-08-20T08:40:45.554Z DEBUG @wdio/browserstack-service Requesting Browserstack session URL at https://api.browserstack.com/automate/sessions/9fcb1a0cd37e3ce6bf05142cc5866ca18b7ccbe9.json
+2025-08-20T08:40:45.577Z INFO @wdio/browserstack-service Update job with sessionId a25eb6705efbffb5b1fd7f28dcbaf4d7ae79d95e
+2025-08-20T08:40:45.577Z DEBUG @wdio/browserstack-service Updating Browserstack session at https://api.browserstack.com/automate/sessions/a25eb6705efbffb5b1fd7f28dcbaf4d7ae79d95e.json with request body: 
+2025-08-20T08:40:45.673Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:45.673Z DEBUG @wdio/browserstack-service callback: marking events success 2
+2025-08-20T08:40:45.942Z INFO @wdio/browserstack-service Windows 10 Chrome latest session: https://automate.browserstack.com/builds/e97cd12d0422fc70b850f93cf0fffc4ea8b65244/sessions/9fcb1a0cd37e3ce6bf05142cc5866ca18b7ccbe9
+2025-08-20T08:40:46.095Z INFO @wdio/browserstack-service Update job with sessionId 9fcb1a0cd37e3ce6bf05142cc5866ca18b7ccbe9
+2025-08-20T08:40:46.095Z DEBUG @wdio/browserstack-service Updating Browserstack session at https://api.browserstack.com/automate/sessions/9fcb1a0cd37e3ce6bf05142cc5866ca18b7ccbe9.json with request body: 
+2025-08-20T08:40:46.754Z INFO @wdio/browserstack-service Automate test case execution has started.
+2025-08-20T08:40:46.755Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-20T08:40:46.756Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:46.763Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:46.763Z DEBUG @wdio/browserstack-service Force request-queue shutdown, as test run event is received after teardown
+2025-08-20T08:40:46.763Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 1, Queue length after removal = 0
+2025-08-20T08:40:46.763Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:46.763Z DEBUG @wdio/browserstack-service callback: called with events 1
+2025-08-20T08:40:46.784Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:46.784Z DEBUG @wdio/browserstack-service {
+  msg: 'Accessibility Automation Scanner completed the scan.',
+  success: true
+}
+2025-08-20T08:40:46.816Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:40:46.850Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 3
+2025-08-20T08:40:46.856Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 4
+2025-08-20T08:40:46.901Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 5
+2025-08-20T08:40:46.903Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 6
+2025-08-20T08:40:46.944Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 7
+2025-08-20T08:40:46.945Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 8
+2025-08-20T08:40:46.947Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-20T08:40:46.947Z INFO @wdio/browserstack-service Automate test case execution has ended. Processing for accessibility testing is underway. 
+2025-08-20T08:40:46.947Z DEBUG @wdio/browserstack-service Performing scan before saving results
+2025-08-20T08:40:47.236Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 9
+2025-08-20T08:40:47.236Z INFO @wdio/browserstack-service Automate test case execution has started.
+2025-08-20T08:40:47.236Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to perform accessibility scan, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:47.237Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-20T08:40:47.238Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:47.274Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:40:47.293Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 10
+2025-08-20T08:40:47.293Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to save accessibility results, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:47.293Z INFO @wdio/browserstack-service Accessibility testing for this test case has ended.
+2025-08-20T08:40:47.294Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 11
+2025-08-20T08:40:47.295Z INFO @wdio/browserstack-service Automate test case execution has started.
+2025-08-20T08:40:47.295Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-20T08:40:47.295Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 12
+2025-08-20T08:40:47.305Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 3
+2025-08-20T08:40:47.306Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 4
+2025-08-20T08:40:47.324Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 13
+2025-08-20T08:40:47.337Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 5
+2025-08-20T08:40:47.340Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 6
+2025-08-20T08:40:47.360Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 14
+2025-08-20T08:40:47.360Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 15
+2025-08-20T08:40:47.379Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 7
+2025-08-20T08:40:47.380Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 8
+2025-08-20T08:40:47.381Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-20T08:40:47.382Z INFO @wdio/browserstack-service Automate test case execution has ended. Processing for accessibility testing is underway. 
+2025-08-20T08:40:47.382Z DEBUG @wdio/browserstack-service Performing scan before saving results
+2025-08-20T08:40:47.399Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 16
+2025-08-20T08:40:47.400Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 17
+2025-08-20T08:40:47.419Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 1, Queue length after removal = 0
+2025-08-20T08:40:47.419Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:47.419Z DEBUG @wdio/browserstack-service callback: called with events 1
+2025-08-20T08:40:47.435Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 18
+2025-08-20T08:40:47.436Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 19
+2025-08-20T08:40:47.476Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 20
+2025-08-20T08:40:47.478Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 9
+2025-08-20T08:40:47.479Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to perform accessibility scan, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:47.478Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 21
+2025-08-20T08:40:47.540Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 10
+2025-08-20T08:40:47.545Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to save accessibility results, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:47.545Z INFO @wdio/browserstack-service Accessibility testing for this test case has ended.
+2025-08-20T08:40:47.553Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 11
+2025-08-20T08:40:47.555Z INFO @wdio/browserstack-service Automate test case execution has started.
+2025-08-20T08:40:47.555Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-20T08:40:47.555Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 12
+2025-08-20T08:40:47.590Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 13
+2025-08-20T08:40:47.620Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-20T08:40:47.620Z INFO @wdio/browserstack-service Automate test case execution has ended. Processing for accessibility testing is underway. 
+2025-08-20T08:40:47.620Z DEBUG @wdio/browserstack-service Performing scan before saving results
+2025-08-20T08:40:47.628Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 14
+2025-08-20T08:40:47.628Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 15
+2025-08-20T08:40:47.666Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 16
+2025-08-20T08:40:47.667Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 17
+2025-08-20T08:40:47.684Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:47.685Z DEBUG @wdio/browserstack-service callback: marking events success 1
+2025-08-20T08:40:47.700Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 18
+2025-08-20T08:40:47.705Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 22
+2025-08-20T08:40:47.701Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 19
+2025-08-20T08:40:47.703Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-20T08:40:47.703Z INFO @wdio/browserstack-service Automate test case execution has ended. Processing for accessibility testing is underway. 
+2025-08-20T08:40:47.703Z DEBUG @wdio/browserstack-service Performing scan before saving results
+2025-08-20T08:40:47.705Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to perform accessibility scan, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:47.766Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 23
+2025-08-20T08:40:47.766Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 20
+2025-08-20T08:40:47.766Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to perform accessibility scan, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:47.766Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to save accessibility results, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:47.766Z INFO @wdio/browserstack-service Accessibility testing for this test case has ended.
+2025-08-20T08:40:47.766Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 24
+2025-08-20T08:40:47.768Z INFO @wdio/browserstack-service Automate test case execution has started.
+2025-08-20T08:40:47.769Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-20T08:40:47.769Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 25
+2025-08-20T08:40:47.804Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 26
+2025-08-20T08:40:47.824Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 21
+2025-08-20T08:40:47.825Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to save accessibility results, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:47.825Z INFO @wdio/browserstack-service Accessibility testing for this test case has ended.
+2025-08-20T08:40:47.827Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 22
+2025-08-20T08:40:47.830Z INFO @wdio/browserstack-service Automate test case execution has started.
+2025-08-20T08:40:47.830Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-20T08:40:47.832Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 23
+2025-08-20T08:40:47.856Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 27
+2025-08-20T08:40:47.857Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 28
+2025-08-20T08:40:47.906Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 24
+2025-08-20T08:40:47.923Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 29
+2025-08-20T08:40:47.925Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 30
+2025-08-20T08:40:47.971Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 25
+2025-08-20T08:40:47.973Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 31
+2025-08-20T08:40:47.975Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 26
+2025-08-20T08:40:47.975Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 32
+2025-08-20T08:40:47.978Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-20T08:40:47.978Z INFO @wdio/browserstack-service Automate test case execution has ended. Processing for accessibility testing is underway. 
+2025-08-20T08:40:47.978Z DEBUG @wdio/browserstack-service Performing scan before saving results
+2025-08-20T08:40:48.018Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 27
+2025-08-20T08:40:48.019Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 28
+2025-08-20T08:40:48.038Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 33
+2025-08-20T08:40:48.038Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to perform accessibility scan, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:48.052Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 29
+2025-08-20T08:40:48.053Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 30
+2025-08-20T08:40:48.087Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 34
+2025-08-20T08:40:48.089Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 31
+2025-08-20T08:40:48.088Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to save accessibility results, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:48.088Z INFO @wdio/browserstack-service Accessibility testing for this test case has ended.
+2025-08-20T08:40:48.088Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 35
+2025-08-20T08:40:48.090Z INFO @wdio/browserstack-service Automate test case execution has started.
+2025-08-20T08:40:48.090Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-20T08:40:48.090Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 36
+2025-08-20T08:40:48.089Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 32
+2025-08-20T08:40:48.091Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-20T08:40:48.091Z INFO @wdio/browserstack-service Automate test case execution has ended. Processing for accessibility testing is underway. 
+2025-08-20T08:40:48.091Z DEBUG @wdio/browserstack-service Performing scan before saving results
+2025-08-20T08:40:48.126Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 37
+2025-08-20T08:40:48.137Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 33
+2025-08-20T08:40:48.137Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to perform accessibility scan, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:48.156Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 38
+2025-08-20T08:40:48.157Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 39
+2025-08-20T08:40:48.192Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 34
+2025-08-20T08:40:48.193Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to save accessibility results, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:48.193Z INFO @wdio/browserstack-service Accessibility testing for this test case has ended.
+2025-08-20T08:40:48.193Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 35
+2025-08-20T08:40:48.194Z INFO @wdio/browserstack-service Automate test case execution has started.
+2025-08-20T08:40:48.195Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-20T08:40:48.195Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 36
+2025-08-20T08:40:48.206Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 40
+2025-08-20T08:40:48.207Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 41
+2025-08-20T08:40:48.226Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 37
+2025-08-20T08:40:48.239Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 42
+2025-08-20T08:40:48.242Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 43
+2025-08-20T08:40:48.281Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 44
+2025-08-20T08:40:48.282Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 38
+2025-08-20T08:40:48.283Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 45
+2025-08-20T08:40:48.284Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 39
+2025-08-20T08:40:48.325Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 40
+2025-08-20T08:40:48.328Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 41
+2025-08-20T08:40:48.372Z DEBUG @wdio/browserstack-service [screenshot_upload] Success response: {"success":true}
+2025-08-20T08:40:48.373Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 42
+2025-08-20T08:40:48.373Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 46
+2025-08-20T08:40:48.375Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 43
+2025-08-20T08:40:48.408Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 44
+2025-08-20T08:40:48.409Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 45
+2025-08-20T08:40:48.410Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-20T08:40:48.410Z INFO @wdio/browserstack-service Automate test case execution has ended. Processing for accessibility testing is underway. 
+2025-08-20T08:40:48.411Z DEBUG @wdio/browserstack-service Performing scan before saving results
+2025-08-20T08:40:48.419Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-20T08:40:48.419Z INFO @wdio/browserstack-service Automate test case execution has ended. Processing for accessibility testing is underway. 
+2025-08-20T08:40:48.419Z DEBUG @wdio/browserstack-service Performing scan before saving results
+2025-08-20T08:40:48.479Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 47
+2025-08-20T08:40:48.480Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 46
+2025-08-20T08:40:48.480Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to perform accessibility scan, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:48.480Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to perform accessibility scan, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:48.531Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 47
+2025-08-20T08:40:48.531Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to save accessibility results, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:48.531Z INFO @wdio/browserstack-service Accessibility testing for this test case has ended.
+2025-08-20T08:40:48.532Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 48
+2025-08-20T08:40:48.547Z INFO @wdio/browserstack-service Update job with sessionId 9fcb1a0cd37e3ce6bf05142cc5866ca18b7ccbe9
+2025-08-20T08:40:48.547Z DEBUG @wdio/browserstack-service Updating Browserstack session at https://api.browserstack.com/automate/sessions/9fcb1a0cd37e3ce6bf05142cc5866ca18b7ccbe9.json with request body: 
+2025-08-20T08:40:48.551Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 48
+2025-08-20T08:40:48.551Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to save accessibility results, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:48.551Z INFO @wdio/browserstack-service Accessibility testing for this test case has ended.
+2025-08-20T08:40:48.552Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 49
+2025-08-20T08:40:48.553Z INFO @wdio/browserstack-service Automate test case execution has started.
+2025-08-20T08:40:48.553Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-20T08:40:48.553Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 50
+2025-08-20T08:40:48.581Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 51
+2025-08-20T08:40:48.614Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 52
+2025-08-20T08:40:48.615Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 53
+2025-08-20T08:40:48.619Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:48.648Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 54
+2025-08-20T08:40:48.649Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:40:48.649Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 55
+2025-08-20T08:40:48.680Z DEBUG @wdio/browserstack-service [screenshot_upload] Success response: {"success":true}
+2025-08-20T08:40:48.680Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 56
+2025-08-20T08:40:48.681Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 57
+2025-08-20T08:40:48.682Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 58
+2025-08-20T08:40:48.694Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-20T08:40:48.694Z INFO @wdio/browserstack-service Automate test case execution has ended. Processing for accessibility testing is underway. 
+2025-08-20T08:40:48.694Z DEBUG @wdio/browserstack-service Performing scan before saving results
+2025-08-20T08:40:48.731Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 3
+2025-08-20T08:40:48.758Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 58, Queue length after removal = 0
+2025-08-20T08:40:48.759Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:48.759Z DEBUG @wdio/browserstack-service callback: called with events 58
+2025-08-20T08:40:48.807Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:48.808Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to perform accessibility scan, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:48.835Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 4
+2025-08-20T08:40:48.866Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:40:48.866Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to save accessibility results, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:48.866Z INFO @wdio/browserstack-service Accessibility testing for this test case has ended.
+2025-08-20T08:40:48.866Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 3
+2025-08-20T08:40:48.867Z INFO @wdio/browserstack-service Automate test case execution has started.
+2025-08-20T08:40:48.868Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-20T08:40:48.868Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 4
+2025-08-20T08:40:48.872Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 5
+2025-08-20T08:40:48.908Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 5
+2025-08-20T08:40:48.923Z DEBUG @wdio/browserstack-service teardown started
+2025-08-20T08:40:48.923Z DEBUG @wdio/browserstack-service shutdown started
+2025-08-20T08:40:48.923Z DEBUG @wdio/browserstack-service Shutting down request queue
+2025-08-20T08:40:48.923Z DEBUG @wdio/browserstack-service calling callback with kind SHUTDOWN_QUEUE
+2025-08-20T08:40:48.923Z DEBUG @wdio/browserstack-service callback: called with events 48
+2025-08-20T08:40:48.947Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 6
+2025-08-20T08:40:48.949Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 6
+2025-08-20T08:40:48.948Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 7
+2025-08-20T08:40:48.988Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 8
+2025-08-20T08:40:48.989Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 9
+2025-08-20T08:40:49.014Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 7
+2025-08-20T08:40:49.019Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 10
+2025-08-20T08:40:49.020Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 11
+2025-08-20T08:40:49.044Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 8
+2025-08-20T08:40:49.046Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 9
+2025-08-20T08:40:49.054Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 12
+2025-08-20T08:40:49.055Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 13
+2025-08-20T08:40:49.073Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 10
+2025-08-20T08:40:49.075Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 11
+2025-08-20T08:40:49.076Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-20T08:40:49.076Z INFO @wdio/browserstack-service Automate test case execution has ended. Processing for accessibility testing is underway. 
+2025-08-20T08:40:49.076Z DEBUG @wdio/browserstack-service Performing scan before saving results
+2025-08-20T08:40:49.209Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-20T08:40:49.209Z INFO @wdio/browserstack-service Automate test case execution has ended. Processing for accessibility testing is underway. 
+2025-08-20T08:40:49.209Z DEBUG @wdio/browserstack-service Performing scan before saving results
+2025-08-20T08:40:49.240Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:49.240Z DEBUG @wdio/browserstack-service callback: marking events success 58
+2025-08-20T08:40:49.254Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 14
+2025-08-20T08:40:49.254Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to perform accessibility scan, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:49.300Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 15
+2025-08-20T08:40:49.300Z DEBUG @wdio/browserstack-service {
+  msg: 'Unable to save accessibility results, Invalid URL.',
+  success: false
+}
+2025-08-20T08:40:49.301Z INFO @wdio/browserstack-service Accessibility testing for this test case has ended.
+2025-08-20T08:40:49.301Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 16
+2025-08-20T08:40:49.320Z INFO @wdio/browserstack-service Update job with sessionId a25eb6705efbffb5b1fd7f28dcbaf4d7ae79d95e
+2025-08-20T08:40:49.320Z DEBUG @wdio/browserstack-service Updating Browserstack session at https://api.browserstack.com/automate/sessions/a25eb6705efbffb5b1fd7f28dcbaf4d7ae79d95e.json with request body: 
+2025-08-20T08:40:49.420Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 11, Queue length after removal = 0
+2025-08-20T08:40:49.420Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:49.420Z DEBUG @wdio/browserstack-service callback: called with events 11
+2025-08-20T08:40:49.673Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:49.673Z DEBUG @wdio/browserstack-service callback: marking events success 11
+2025-08-20T08:40:49.892Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:49.892Z DEBUG @wdio/browserstack-service callback: marking events success 48
+2025-08-20T08:40:49.893Z DEBUG @wdio/browserstack-service shutdown ended
+2025-08-20T08:40:49.893Z DEBUG @wdio/browserstack-service teardown ended
+2025-08-20T08:40:49.932Z DEBUG @wdio/browserstack-service [screenshot_upload] Success response: {"success":true}
+2025-08-20T08:40:49.932Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 17
+2025-08-20T08:40:49.934Z DEBUG @wdio/browserstack-service teardown started
+2025-08-20T08:40:49.934Z DEBUG @wdio/browserstack-service shutdown started
+2025-08-20T08:40:49.934Z DEBUG @wdio/browserstack-service Shutting down request queue
+2025-08-20T08:40:49.934Z DEBUG @wdio/browserstack-service calling callback with kind SHUTDOWN_QUEUE
+2025-08-20T08:40:49.934Z DEBUG @wdio/browserstack-service callback: called with events 17
+2025-08-20T08:40:50.406Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:50.407Z DEBUG @wdio/browserstack-service callback: marking events success 17
+2025-08-20T08:40:50.407Z DEBUG @wdio/browserstack-service shutdown ended
+2025-08-20T08:40:50.407Z DEBUG @wdio/browserstack-service teardown ended
+2025-08-20T08:40:51.310Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:51.310Z DEBUG @wdio/browserstack-service Force request-queue shutdown, as test run event is received after teardown
+2025-08-20T08:40:51.311Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 1, Queue length after removal = 0
+2025-08-20T08:40:51.311Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:51.311Z DEBUG @wdio/browserstack-service callback: called with events 1
+2025-08-20T08:40:51.765Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:51.766Z DEBUG @wdio/browserstack-service {
+  msg: 'Accessibility Automation Scanner completed the scan.',
+  success: true
+}
+2025-08-20T08:40:51.809Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:51.810Z DEBUG @wdio/browserstack-service Force request-queue shutdown, as test run event is received after teardown
+2025-08-20T08:40:51.810Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 1, Queue length after removal = 0
+2025-08-20T08:40:51.810Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:51.810Z DEBUG @wdio/browserstack-service callback: called with events 1
+2025-08-20T08:40:51.930Z DEBUG @wdio/browserstack-service Inside OnComplete hook..
+2025-08-20T08:40:51.930Z DEBUG @wdio/browserstack-service Sending stop launch event
+2025-08-20T08:40:52.190Z DEBUG @wdio/browserstack-service [STOP_BUILD] Success response: ""
+2025-08-20T08:40:52.194Z INFO @wdio/browserstack-service BrowserStack service run ended for id: f405f253-ae83-4a03-8ec7-768074fd41ec testhub id: jcedqmyuorltg5eqbvpdyeiccunbciph62gvru3c
+2025-08-20T08:40:52.195Z DEBUG @wdio/browserstack-service Reading worker file worker-data-14015.json
+2025-08-20T08:40:52.195Z DEBUG @wdio/browserstack-service Reading worker file worker-data-14245.json
+2025-08-20T08:40:52.196Z DEBUG @wdio/browserstack-service Reading worker file worker-data-14246.json
+2025-08-20T08:40:52.200Z DEBUG @wdio/browserstack-service Sending SDK event with data {
+  userName: '[REDACTED]',
+  accessKey: '[REDACTED]',
+  event_type: 'SDKTestSuccessful',
+  detectedFramework: 'WebdriverIO-cucumber',
+  event_properties: {
+    language_framework: 'WebdriverIO_cucumber',
+    referrer: 'WebdriverIO-cucumber/8.46.0',
+    language: 'WebdriverIO',
+    languageVersion: 'v20.18.1',
+    buildName: 'undefined',
+    buildIdentifier: 'undefined',
+    sdkRunId: 'f405f253-ae83-4a03-8ec7-768074fd41ec',
+    os: 'Darwin',
+    hostname: 'SouravKundu-WQWR9RNPJ6',
+    productMap: {
+      observability: true,
+      accessibility: true,
+      percy: 'true',
+      automate: true,
+      app_automate: false
+    },
+    product: [ 'observability', 'accessibility', 'percy', 'automate' ],
+    framework: 'cucumber',
+    testhub_uuid: 'jcedqmyuorltg5eqbvpdyeiccunbciph62gvru3c',
+    productUsage: {
+      testObservability: {
+        enabled: true,
+        manuallySet: true,
+        buildHashedId: 'jcedqmyuorltg5eqbvpdyeiccunbciph62gvru3c',
+        events: {
+          buildEvents: {
+            started: { isTriggered: true, status: 'success', error: undefined },
+            finished: { isTriggered: true, status: 'success', error: undefined }
+          },
+          testEvents: {
+            started: { triggeredCount: 22, sentCount: 22, failedCount: 0 },
+            finished: { triggeredCount: 22, sentCount: 22, failedCount: 0 },
+            passed: { triggeredCount: 12, sentCount: 12, failedCount: 0 },
+            failed: { triggeredCount: 7, sentCount: 7, failedCount: 0 },
+            skipped: { triggeredCount: 3, sentCount: 3, failedCount: 0 }
+          },
+          hookEvents: {
+            started: { triggeredCount: 0, sentCount: 0, failedCount: 0 },
+            finished: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
+          },
+          logEvents: {
+            triggeredCount: 317,
+            sentCount: 317,
+            failedCount: 0,
+            http: { triggeredCount: 267, sentCount: 267, failedCount: 0 },
+            log: { triggeredCount: 42, sentCount: 42, failedCount: 0 },
+            screenshot: { triggeredCount: 8, sentCount: 8, failedCount: 0 }
+          },
+          cbtSessionEvents: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
+        }
+      }
+    },
+    isPercyAutoEnabled: false,
+    percyBuildId: undefined
+  }
+}
+2025-08-20T08:40:53.175Z DEBUG @wdio/browserstack-service Funnel event success
+2025-08-20T08:40:53.375Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:40:53.375Z DEBUG @wdio/browserstack-service {
+  msg: 'Accessibility Automation Scanner saved the test case results.',
+  success: true
+}
+2025-08-20T08:40:53.376Z INFO @wdio/browserstack-service Accessibility testing for this test case has ended.
+2025-08-20T08:40:53.376Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 3
+2025-08-20T08:40:53.377Z INFO @wdio/browserstack-service Automate test case execution has started.
+2025-08-20T08:40:53.378Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-20T08:40:53.378Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 4
+2025-08-20T08:40:53.418Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 5
+2025-08-20T08:40:53.423Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 5, Queue length after removal = 0
+2025-08-20T08:40:53.423Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:53.423Z DEBUG @wdio/browserstack-service callback: called with events 5
+2025-08-20T08:40:53.458Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:53.459Z DEBUG @wdio/browserstack-service Performing scan for Browser url
+2025-08-20T08:40:53.678Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:53.679Z DEBUG @wdio/browserstack-service callback: marking events success 5
+2025-08-20T08:40:54.438Z DEBUG @wdio/browserstack-service Response - {
+  status: 'success',
+  message: 'Logs upload successful in file - logs.gz'
+}
+2025-08-20T08:40:55.424Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 1, Queue length after removal = 0
+2025-08-20T08:40:55.425Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:55.425Z DEBUG @wdio/browserstack-service callback: called with events 1
+2025-08-20T08:40:55.688Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:55.688Z DEBUG @wdio/browserstack-service callback: marking events success 1
+2025-08-20T08:40:55.822Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:55.823Z DEBUG @wdio/browserstack-service {
+  msg: 'Accessibility Automation Scanner completed the scan.',
+  success: true
+}
+2025-08-20T08:40:57.425Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 1, Queue length after removal = 0
+2025-08-20T08:40:57.425Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:57.425Z DEBUG @wdio/browserstack-service callback: called with events 1
+2025-08-20T08:40:57.600Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:40:57.627Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:40:57.628Z DEBUG @wdio/browserstack-service Performing scan for Browser url
+2025-08-20T08:40:57.672Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:57.672Z DEBUG @wdio/browserstack-service callback: marking events success 1
+2025-08-20T08:40:59.425Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 2, Queue length after removal = 0
+2025-08-20T08:40:59.426Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:40:59.426Z DEBUG @wdio/browserstack-service callback: called with events 2
+2025-08-20T08:40:59.720Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:40:59.721Z DEBUG @wdio/browserstack-service callback: marking events success 2
+2025-08-20T08:41:01.061Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:41:01.061Z DEBUG @wdio/browserstack-service {
+  msg: 'Accessibility Automation Scanner completed the scan.',
+  success: true
+}
+2025-08-20T08:41:01.426Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 1, Queue length after removal = 0
+2025-08-20T08:41:01.426Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:41:01.426Z DEBUG @wdio/browserstack-service callback: called with events 1
+2025-08-20T08:41:01.743Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:41:01.743Z DEBUG @wdio/browserstack-service callback: marking events success 1
+2025-08-20T08:41:02.934Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:41:02.963Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:41:03.427Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 2, Queue length after removal = 0
+2025-08-20T08:41:03.428Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:41:03.428Z DEBUG @wdio/browserstack-service callback: called with events 2
+2025-08-20T08:41:03.947Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:41:04.006Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:41:04.037Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 3
+2025-08-20T08:41:04.096Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 4
+2025-08-20T08:41:04.145Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 5
+2025-08-20T08:41:04.177Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 6
+2025-08-20T08:41:04.178Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 7
+2025-08-20T08:41:04.244Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 8
+2025-08-20T08:41:04.245Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 9
+2025-08-20T08:41:04.247Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-20T08:41:04.247Z INFO @wdio/browserstack-service Automate test case execution has ended. Processing for accessibility testing is underway. 
+2025-08-20T08:41:04.247Z DEBUG @wdio/browserstack-service Performing scan before saving results
+2025-08-20T08:41:04.382Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:41:04.385Z DEBUG @wdio/browserstack-service callback: marking events success 2
+2025-08-20T08:41:05.428Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 9, Queue length after removal = 0
+2025-08-20T08:41:05.429Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:41:05.429Z DEBUG @wdio/browserstack-service callback: called with events 9
+2025-08-20T08:41:05.946Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:41:05.946Z DEBUG @wdio/browserstack-service callback: marking events success 9
+2025-08-20T08:41:06.923Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:41:06.923Z DEBUG @wdio/browserstack-service {
+  msg: 'Accessibility Automation Scanner completed the scan.',
+  success: true
+}
+2025-08-20T08:41:07.429Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 1, Queue length after removal = 0
+2025-08-20T08:41:07.430Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:41:07.430Z DEBUG @wdio/browserstack-service callback: called with events 1
+2025-08-20T08:41:07.676Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:41:07.677Z DEBUG @wdio/browserstack-service callback: marking events success 1
+2025-08-20T08:41:08.373Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:41:08.373Z DEBUG @wdio/browserstack-service {
+  msg: 'Accessibility Automation Scanner saved the test case results.',
+  success: true
+}
+2025-08-20T08:41:08.374Z INFO @wdio/browserstack-service Accessibility testing for this test case has ended.
+2025-08-20T08:41:08.374Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:41:08.377Z INFO @wdio/browserstack-service Automate test case execution has started.
+2025-08-20T08:41:08.377Z DEBUG @wdio/browserstack-service Got osVersion from user bstack options
+2025-08-20T08:41:08.378Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 3
+2025-08-20T08:41:08.407Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 4
+2025-08-20T08:41:08.437Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 5
+2025-08-20T08:41:08.439Z DEBUG @wdio/browserstack-service Performing scan for Browser url
+2025-08-20T08:41:09.430Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 5, Queue length after removal = 0
+2025-08-20T08:41:09.430Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:41:09.431Z DEBUG @wdio/browserstack-service callback: called with events 5
+2025-08-20T08:41:09.691Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:41:09.691Z DEBUG @wdio/browserstack-service callback: marking events success 5
+2025-08-20T08:41:10.641Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:41:10.642Z DEBUG @wdio/browserstack-service {
+  msg: 'Accessibility Automation Scanner completed the scan.',
+  success: true
+}
+2025-08-20T08:41:11.431Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 1, Queue length after removal = 0
+2025-08-20T08:41:11.433Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:41:11.434Z DEBUG @wdio/browserstack-service callback: called with events 1
+2025-08-20T08:41:11.698Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:41:11.698Z DEBUG @wdio/browserstack-service callback: marking events success 1
+2025-08-20T08:41:12.687Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:41:12.737Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:41:12.737Z DEBUG @wdio/browserstack-service Performing scan for Browser url
+2025-08-20T08:41:13.433Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 2, Queue length after removal = 0
+2025-08-20T08:41:13.433Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:41:13.433Z DEBUG @wdio/browserstack-service callback: called with events 2
+2025-08-20T08:41:13.720Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:41:13.721Z DEBUG @wdio/browserstack-service callback: marking events success 2
+2025-08-20T08:41:15.743Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:41:15.743Z DEBUG @wdio/browserstack-service {
+  msg: 'Accessibility Automation Scanner completed the scan.',
+  success: true
+}
+2025-08-20T08:41:17.109Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:41:17.139Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 3
+2025-08-20T08:41:17.342Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 4
+2025-08-20T08:41:17.422Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 5
+2025-08-20T08:41:17.435Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 5, Queue length after removal = 0
+2025-08-20T08:41:17.435Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:41:17.435Z DEBUG @wdio/browserstack-service callback: called with events 5
+2025-08-20T08:41:17.455Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:41:17.551Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:41:17.627Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 3
+2025-08-20T08:41:17.656Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 4
+2025-08-20T08:41:17.657Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 5
+2025-08-20T08:41:17.689Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 6
+2025-08-20T08:41:17.690Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 7
+2025-08-20T08:41:17.692Z DEBUG @wdio/browserstack-service Accessibility after scenario hook. Before sending test stop event
+2025-08-20T08:41:17.693Z INFO @wdio/browserstack-service Automate test case execution has ended. Processing for accessibility testing is underway. 
+2025-08-20T08:41:17.693Z DEBUG @wdio/browserstack-service Performing scan before saving results
+2025-08-20T08:41:17.713Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:41:17.714Z DEBUG @wdio/browserstack-service callback: marking events success 5
+2025-08-20T08:41:19.435Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 7, Queue length after removal = 0
+2025-08-20T08:41:19.435Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:41:19.435Z DEBUG @wdio/browserstack-service callback: called with events 7
+2025-08-20T08:41:19.685Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:41:19.686Z DEBUG @wdio/browserstack-service callback: marking events success 7
+2025-08-20T08:41:20.629Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:41:20.629Z DEBUG @wdio/browserstack-service {
+  msg: 'Accessibility Automation Scanner completed the scan.',
+  success: true
+}
+2025-08-20T08:41:21.435Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 1, Queue length after removal = 0
+2025-08-20T08:41:21.436Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:41:21.436Z DEBUG @wdio/browserstack-service callback: called with events 1
+2025-08-20T08:41:21.696Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:41:21.696Z DEBUG @wdio/browserstack-service callback: marking events success 1
+2025-08-20T08:41:22.353Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:41:22.354Z DEBUG @wdio/browserstack-service {
+  msg: 'Accessibility Automation Scanner saved the test case results.',
+  success: true
+}
+2025-08-20T08:41:22.354Z INFO @wdio/browserstack-service Accessibility testing for this test case has ended.
+2025-08-20T08:41:22.354Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 2
+2025-08-20T08:41:22.382Z INFO @wdio/browserstack-service Update job with sessionId c6a8b2229fa8d1d36cd105e677f8b70c45f96b3e
+2025-08-20T08:41:22.382Z DEBUG @wdio/browserstack-service Updating Browserstack session at https://api.browserstack.com/automate/sessions/c6a8b2229fa8d1d36cd105e677f8b70c45f96b3e.json with request body: 
+2025-08-20T08:41:22.834Z DEBUG @wdio/browserstack-service teardown started
+2025-08-20T08:41:22.834Z DEBUG @wdio/browserstack-service shutdown started
+2025-08-20T08:41:22.834Z DEBUG @wdio/browserstack-service Shutting down request queue
+2025-08-20T08:41:22.835Z DEBUG @wdio/browserstack-service calling callback with kind SHUTDOWN_QUEUE
+2025-08-20T08:41:22.835Z DEBUG @wdio/browserstack-service callback: called with events 2
+2025-08-20T08:41:23.108Z DEBUG @wdio/browserstack-service [BATCH_DATA] Success response: {"success":true}
+2025-08-20T08:41:23.109Z DEBUG @wdio/browserstack-service callback: marking events success 2
+2025-08-20T08:41:23.109Z DEBUG @wdio/browserstack-service shutdown ended
+2025-08-20T08:41:23.109Z DEBUG @wdio/browserstack-service teardown ended
+2025-08-20T08:41:24.428Z DEBUG @wdio/browserstack-service Added data to request queue. Queue length = 1
+2025-08-20T08:41:24.429Z DEBUG @wdio/browserstack-service Force request-queue shutdown, as test run event is received after teardown
+2025-08-20T08:41:24.429Z DEBUG @wdio/browserstack-service Sending data from request queue. Data length = 1, Queue length after removal = 0
+2025-08-20T08:41:24.429Z DEBUG @wdio/browserstack-service calling callback with kind INTERVAL_QUEUE
+2025-08-20T08:41:24.429Z DEBUG @wdio/browserstack-service callback: called with events 1
+2025-08-20T08:41:24.549Z DEBUG @wdio/browserstack-service Inside OnComplete hook..
+2025-08-20T08:41:24.550Z DEBUG @wdio/browserstack-service Sending stop launch event
+2025-08-20T08:41:25.331Z DEBUG @wdio/browserstack-service [STOP_BUILD] Success response: ""
+2025-08-20T08:41:25.336Z INFO @wdio/browserstack-service BrowserStack service run ended for id: 95b090ec-e778-4754-be25-c5bbe1dac786 testhub id: 1kxuoaxgd5aefdbiufn4sfncqdupzgwb89mq23mn
+2025-08-20T08:41:25.338Z DEBUG @wdio/browserstack-service Reading worker file worker-data-14016.json
+2025-08-20T08:41:25.343Z DEBUG @wdio/browserstack-service Sending SDK event with data {
+  userName: '[REDACTED]',
+  accessKey: '[REDACTED]',
+  event_type: 'SDKTestSuccessful',
+  detectedFramework: 'WebdriverIO-cucumber',
+  event_properties: {
+    language_framework: 'WebdriverIO_cucumber',
+    referrer: 'WebdriverIO-cucumber/8.46.0',
+    language: 'WebdriverIO',
+    languageVersion: 'v20.18.1',
+    buildName: 'undefined',
+    buildIdentifier: 'undefined',
+    sdkRunId: '95b090ec-e778-4754-be25-c5bbe1dac786',
+    os: 'Darwin',
+    hostname: 'SouravKundu-WQWR9RNPJ6',
+    productMap: {
+      observability: true,
+      accessibility: true,
+      percy: 'true',
+      automate: true,
+      app_automate: false
+    },
+    product: [ 'observability', 'accessibility', 'percy', 'automate' ],
+    framework: 'cucumber',
+    testhub_uuid: '1kxuoaxgd5aefdbiufn4sfncqdupzgwb89mq23mn',
+    productUsage: {
+      testObservability: {
+        enabled: true,
+        manuallySet: true,
+        buildHashedId: '1kxuoaxgd5aefdbiufn4sfncqdupzgwb89mq23mn',
+        events: {
+          buildEvents: {
+            started: { isTriggered: true, status: 'success', error: undefined },
+            finished: { isTriggered: true, status: 'success', error: undefined }
+          },
+          testEvents: {
+            started: { triggeredCount: 15, sentCount: 15, failedCount: 0 },
+            finished: { triggeredCount: 15, sentCount: 15, failedCount: 0 },
+            failed: { triggeredCount: 4, sentCount: 4, failedCount: 0 },
+            passed: { triggeredCount: 11, sentCount: 11, failedCount: 0 }
+          },
+          hookEvents: {
+            started: { triggeredCount: 0, sentCount: 0, failedCount: 0 },
+            finished: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
+          },
+          logEvents: {
+            triggeredCount: 302,
+            sentCount: 302,
+            failedCount: 0,
+            http: { triggeredCount: 256, sentCount: 256, failedCount: 0 },
+            log: { triggeredCount: 42, sentCount: 42, failedCount: 0 },
+            screenshot: { triggeredCount: 4, sentCount: 4, failedCount: 0 }
+          },
+          cbtSessionEvents: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
+        }
+      }
+    },
+    isPercyAutoEnabled: false,
+    percyBuildId: undefined
+  }
+}
+2025-08-20T08:41:26.538Z DEBUG @wdio/browserstack-service Funnel event success
+2025-08-20T08:41:28.819Z DEBUG @wdio/browserstack-service Response - {
+  status: 'success',
+  message: 'Logs upload successful in file - logs.gz'
+}
+2025-08-20T08:41:32.291Z DEBUG @wdio/browserstack-service Successfully uploaded performance events Bravo
