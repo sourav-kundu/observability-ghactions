@@ -41,7 +41,7 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 5,
+    maxInstances: 25,
 
     capabilities: [
         {
@@ -135,10 +135,13 @@ exports.config = {
         ['browserstack', {
             testObservability: true,
             testObservabilityOptions: {
-                projectName: "WDIO Cucumber GH",
-                buildName: "E2E Sanity - Only Chrome",
+                projectName: "WDIO Example",
+                buildName: "Sanity",
             },
-            browserstackLocal: false
+            browserstackLocal: false,
+            accessibility: true,
+            percy: 'true',
+            percyCaptureMode: 'auto'
         }]
     ],
     
