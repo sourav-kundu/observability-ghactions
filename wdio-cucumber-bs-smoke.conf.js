@@ -135,7 +135,7 @@ exports.config = {
         ['browserstack', {
             testObservability: true,
             testObservabilityOptions: {
-                projectName: "WDIO Cucumber GH",
+                projectName: "WDIO Example",
                 buildName: "API tests - Smoke suite",
             },
             browserstackLocal: false

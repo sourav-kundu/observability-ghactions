@@ -135,7 +135,7 @@ exports.config = {
         ['browserstack', {
             testObservability: true,
             testObservabilityOptions: {
-                projectName: "WDIO Cucumber GH",
+                projectName: "WDIO Example",
                 buildName: "E2E Sanity - Only Chrome",
             },
             browserstackLocal: false

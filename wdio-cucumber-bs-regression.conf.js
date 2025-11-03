@@ -183,7 +183,7 @@ exports.config = {
         ['browserstack', {
             testObservability: true,
             testObservabilityOptions: {
-                projectName: "WDIO Cucumber GH",
+                projectName: "WDIO Example",
                 buildName: "e2e regression",
                 buildTag: ['Nightly']
             },
