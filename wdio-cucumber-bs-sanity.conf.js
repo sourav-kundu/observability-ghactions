@@ -136,7 +136,7 @@ exports.config = {
             testObservability: true,
             testObservabilityOptions: {
                 projectName: "WDIO Example",
-                buildName: "E2E Sanity - Only Chrome",
+                buildName: "Sanity",
             },
             browserstackLocal: false
         }]

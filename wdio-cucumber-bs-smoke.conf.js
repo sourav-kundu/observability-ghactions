@@ -136,7 +136,7 @@ exports.config = {
             testObservability: true,
             testObservabilityOptions: {
                 projectName: "WDIO Example",
-                buildName: "API tests - Smoke suite",
+                buildName: "Smoke suite",
             },
             browserstackLocal: false
         }]

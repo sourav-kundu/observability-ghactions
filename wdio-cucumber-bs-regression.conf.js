@@ -184,7 +184,7 @@ exports.config = {
             testObservability: true,
             testObservabilityOptions: {
                 projectName: "WDIO Example",
-                buildName: "e2e regression",
+                buildName: "Web Regression",
                 buildTag: ['Nightly']
             },
             browserstackLocal: false
