@@ -7,3 +7,5 @@
 /allure-results
 /webdriverio
 app.log
+/logs
+./package-lock.json
