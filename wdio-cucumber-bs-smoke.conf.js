@@ -41,7 +41,7 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 5,
+    maxInstances: 25,
 
     capabilities: [
         {
@@ -135,8 +135,8 @@ exports.config = {
         ['browserstack', {
             testObservability: true,
             testObservabilityOptions: {
-                projectName: "WDIO Cucumber GH",
-                buildName: "API tests - Smoke suite",
+                projectName: "WDIO Example",
+                buildName: "Smoke Suite",
             },
             browserstackLocal: false
         }]
