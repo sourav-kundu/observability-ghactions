@@ -1,4 +1,5 @@
 # observability-ghactions
+
 This is a Sample WDIO Project to demonstrate how Test Observability works. Try it out and explore...
 
 ## Execute Suite - WDIO - Mocha & Cucumber
