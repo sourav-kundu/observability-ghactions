@@ -1,5 +1,6 @@
 # observability-ghactions
-This is a Sample WDIO Project to demonstrate how Test Observability works. Try it out and explore..
+
+This is a Sample WDIO Project to demonstrate how Test Observability works. Try it out and explore...
 
 ## Execute Suite - WDIO - Mocha & Cucumber
 1. Install nvm and Switch to nvm v16.10.0 - ```nvm use v16.10.0```
