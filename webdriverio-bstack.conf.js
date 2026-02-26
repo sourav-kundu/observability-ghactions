@@ -2,21 +2,7 @@ exports.config = {
   user: process.env.BROWSERSTACK_USERNAME,
   key: process.env.BROWSERSTACK_ACCESS_KEY,
   hostname: 'hub.browserstack.com',
-  framework: 'cucumber',
-  cucumberOpts: {
-        require: ['./stepdefinitions/*.js'],
-        backtrace: false,
-        dryRun: false,
-        failFast: false, // Fail on first step, useful for debugging
-        format: ['pretty'],
-        snippets: true, // Show pending step suggestions
-        ignoreUndefinedDefinitions: false // Treat undefined definitions as warnings
-    },
   specs: ['./features/e2e/bstack_demo/signIn/**'],
-    // Patterns to exclude.
-    exclude: [
-        // 'path/to/excluded/files'
-    ],
   services: [
     [
       'browserstack',
@@ -68,6 +54,16 @@ exports.config = {
   },
   maxInstances: 25,
   // rest of your config goes here...
+  framework: 'cucumber',
+  cucumberOpts: {
+        require: ['./stepdefinitions/*.js'],
+        backtrace: false,
+        dryRun: false,
+        failFast: false, // Fail on first step, useful for debugging
+        format: ['pretty'],
+        snippets: true, // Show pending step suggestions
+        ignoreUndefinedDefinitions: false // Treat undefined definitions as warnings
+    },
 };
 exports.config.capabilities.forEach(function (caps) {
   for (let i in exports.config.commonCapabilities)
