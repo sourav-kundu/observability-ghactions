@@ -10,6 +10,9 @@
     "e2e-test-wdio-cucumber-bs-sanity": "npm run screenshots-clean; npm run allure-clean; npx wdio run ./wdio-cucumber-bs-sanity.conf.js",
     "e2e-test-wdio-cucumber-bs-smoke": "npm run screenshots-clean; npm run allure-clean; npx wdio run ./wdio-cucumber-bs-smoke.conf.js",
     "e2e-test-wdio-cucumber-bs-p1": "npm run screenshots-clean; npm run allure-clean; npx wdio run ./wdio-cucumber-bs-p1.conf.js; echo $BS_TESTOPS_BUILD_HASHED_ID",
+    "sample-local": "npm run screenshots-clean; npm run allure-clean; npx wdio run ./webdriverio.conf.js",
+    "sample-bstack": "npm run screenshots-clean; npm run allure-clean; npx wdio run ./webdriverio-bstack.conf.js",
+
     "allure-clean": "rimraf allure-results && rimraf allure-report",
     "allure-generate": "allure generate --clean allure-results && allure open",
     "screenshots-clean": "rimraf screenshots/*"
