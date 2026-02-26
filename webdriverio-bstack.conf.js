@@ -20,22 +20,19 @@ exports.config = {
   services: [
     [
       'browserstack',
-      { browserstackLocal: true, 
+      { browserstackLocal: false, 
         opts: { forcelocal: false },
         testObservability: true,
         testObservabilityOptions: {
-                'projectName': 'WebApp',
-                'buildName': 'Regression',
-                'buildTag': 'run-3'
+                'projectName': 'BStack Integration Demo',
+                'buildName': 'Run on BStack',
+                'buildTag': 'Pre-release',
             },
-        // percy: 'true',
-        // percyCaptureMode: 'auto',
-        // accessibility: true
+        accessibility: true
       },
     ],
   ],
   // add path to the test file
-  specs: ['./tests/specs/test.js'],
   capabilities: [
     {
       browserName: 'Chrome',
@@ -69,10 +66,10 @@ exports.config = {
       networkLogs: 'true'
     }
   },
-  maxInstances: 10,
+  maxInstances: 25,
   // rest of your config goes here...
 };
 exports.config.capabilities.forEach(function (caps) {
   for (let i in exports.config.commonCapabilities)
     caps[i] = { ...caps[i], ...exports.config.commonCapabilities[i]};
-});
+})

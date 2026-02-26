@@ -187,7 +187,10 @@ exports.config = {
                 buildName: "Web Regression",
                 buildTag: ['Nightly']
             },
-            browserstackLocal: false
+            browserstackLocal: false,
+            // percy: 'true',
+            // percyCaptureMode: 'auto',
+            accessibility: true
         }]
     ],
     
