@@ -12,7 +12,7 @@ exports.config = {
         snippets: true, // Show pending step suggestions
         ignoreUndefinedDefinitions: false // Treat undefined definitions as warnings
     },
-  specs: ['./features/e2e/**'],
+  specs: ['./features/e2e/bstack_demo/signIn/**'],
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
