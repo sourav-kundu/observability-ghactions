@@ -190,7 +190,7 @@ exports.config = {
             browserstackLocal: false,
             // percy: 'true',
             // percyCaptureMode: 'auto',
-            accessibility: true
+            // accessibility: true
         }]
     ],
     

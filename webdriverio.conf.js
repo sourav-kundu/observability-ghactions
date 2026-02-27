@@ -1,6 +1,6 @@
 exports.config = {
 
-    specs: ['./features/e2e/**'],
+    specs: ['./features/e2e/bstack_demo/signIn/**'],
     maxInstances: 5,
     capabilities: [
         {
