@@ -6,7 +6,12 @@ on:
   schedule:
     - cron: "5 */8 * * *"
   workflow_dispatch:
-
+    inputs:
+      trigger_source:    
+        description: 'Source that triggered this workflow'
+        required: false
+        default: 'browserstack-tra'
+        type: string
 jobs:
   ubuntu-job:
     name: 'WDIO Cucumber Samples on Test Observability'
