@@ -9,3 +9,23 @@
 app.log
 /logs
 ./package-lock.json
+
+# Secrets / credentials — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+.npmrc
+credentials.json
+secrets.json
+*.secret
+*.secrets
+
+# Logs (may contain tokens/JWTs)
+*.log
+sdk_logs.log
