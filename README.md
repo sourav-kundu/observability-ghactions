@@ -3,7 +3,7 @@
 This is a Sample WDIO Project to demonstrate how Test Observability works. Try it out and explore...
 
 ## Execute Suite - WDIO - Mocha & Cucumber
-1. Install nvm and Switch to nvm v16.10.0 - ```nvm use v16.10.0```
+1. Install nvm and switch to nvm v16.10.0 - ```nvm use v16.10.0```
 2. Clone Test Samples repo - ```git@github.com:browserstack/test-observability-samples.git``` - ```develop``` branch
 3. Go to Test folder ```test-samples/nodejs/wdio``` folder and run - ```npm install```
 4. To run the wdio mocha suite with execution on automate: 
