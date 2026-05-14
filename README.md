@@ -20,5 +20,5 @@ This is a Sample WDIO Project to demonstrate how Test Observability works. Try i
     - b. Run tests: ```BROWSERSTACK_USERNAME=<user-name> BROWSERSTACK_ACCESS_KEY=<access-key> npm run e2e-test-wdio-cucumber```
 8. To check the test suite results go to - [Observability Dashboard](https://observability.browserstack.com/) 
 9. To generate allure reports - ```npm run allure-generate```
-10. Done
+10. Done.
 
