@@ -26,7 +26,9 @@ class SignInAppErrorPage extends Page {
      * e.g. to login using username and password
      */
     async login (username, password) {
+        await this.userNameInput.waitForExist({ timeout: 15000 });
         await this.userNameInput.setValue(username);
+        await this.passwordInput.waitForExist({ timeout: 15000 });
         await this.passwordInput.setValue(password);
         await this.loginBtn.click();
         await browser.pause(10000);

@@ -95,9 +95,9 @@ Given(/^Verify all SignInPage UI logging - ([0-9]+)$/, {timeout: 5*60*1000}, asy
     await new Promise(r => setTimeout(r, sleep_time));
     await signInAppErrorPage.open();
     await new Promise(r => setTimeout(r, sleep_time));
-    signInAppErrorPage.login("demouser\t", "testingisfun99\t")
+    await signInAppErrorPage.login("demouser\t", "testingisfun99\t");
     await new Promise(r => setTimeout(r, sleep_time));
-    signInAppErrorPage.login("demouser\t", "testingisfun99\t")
+    await signInAppErrorPage.login("demouser\t", "testingisfun99\t");
     await new Promise(r => setTimeout(r, sleep_time));
     await signInAppErrorPage.openErrorPage();
 });

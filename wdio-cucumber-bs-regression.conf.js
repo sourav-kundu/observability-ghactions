@@ -231,7 +231,8 @@ exports.config = {
         failFast: false, // Fail on first step, useful for debugging
         format: ['pretty'],
         snippets: true, // Show pending step suggestions
-        ignoreUndefinedDefinitions: false // Treat undefined definitions as warnings
+        ignoreUndefinedDefinitions: false, // Treat undefined definitions as warnings
+        timeout: 60000 // BrowserStack cross-browser page loads can exceed Cucumber's 10s default
     },
     //
     // =====
